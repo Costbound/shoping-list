@@ -1,0 +1,35 @@
+body {
+    font-size: 24px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list {
+    padding: 8px;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    height: 60px;
+    overflow: hidden;
+}
+button {
+    display: block;
+    cursor: pointer;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    background-color:aquamarine;
+}
+
+.done {
+    box-shadow: 0 0 0 900px green;
+}
